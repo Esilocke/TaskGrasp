@@ -26,7 +26,7 @@ from visualize import draw_scene, get_gripper_control_points
 from geometry_utils import regularize_pc_point_count
 from data.SGNLoader import pc_normalize, get_task1_hits
 from data.data_specification import TASKS
-from utils.splits import get_split_data, parse_line, get_ot_pairs_taskgrasp
+from utils_tg.splits import get_split_data, parse_line, get_ot_pairs_taskgrasp
 
 def extract_subgraph(graph, object, task, hop=3):
     """

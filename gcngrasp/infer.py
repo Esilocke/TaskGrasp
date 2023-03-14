@@ -16,7 +16,7 @@ from networkx import convert_node_labels_to_integers
 CODE_DIR = os.path.join(os.path.dirname(__file__), '../')
 sys.path.append(CODE_DIR)
 
-from utils.splits import get_ot_pairs_taskgrasp
+from utils_tg.splits import get_ot_pairs_taskgrasp
 from models.gcn import GCNGrasp
 from data.GCNLoader import extract_subgraph
 from data.SGNLoader import pc_normalize

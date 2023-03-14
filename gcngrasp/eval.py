@@ -20,7 +20,7 @@ from data.SGNLoader import SGNTaskGrasp
 from data.GCNLoader import GCNTaskGrasp
 from data.SG14KLoader import SG14K, get_ot_pairs_sg14k
 from data.data_specification import TASKS, TASKS_SG14K
-from utils.splits import get_ot_pairs_taskgrasp
+from utils_tg.splits import get_ot_pairs_taskgrasp
 
 BASE_DIR = os.path.dirname(__file__)
 sys.path.append(os.path.join(BASE_DIR, '../'))

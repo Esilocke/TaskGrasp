@@ -18,7 +18,7 @@ from collections import defaultdict
 
 BASE_DIR = os.path.dirname(__file__)
 sys.path.append(os.path.join(BASE_DIR, '../../'))
-from utils.splits import get_split_data, parse_line, get_ot_pairs_taskgrasp
+from utils_tg.splits import get_split_data, parse_line, get_ot_pairs_taskgrasp
 from visualize import draw_scene, get_gripper_control_points
 from geometry_utils import regularize_pc_point_count
 
