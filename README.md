@@ -102,3 +102,13 @@ python gcngrasp/infer.py cfg/eval/gcngrasp/gcngrasp_split_mode_t_split_idx_3_.ym
 ```
 
 <img src="assets/pan.jpg" width="300" height="256" title="pan">
+
+## Modifications for GraspOpt
+
+- Re-organizes the whole TaskGrasp model to support batching and gradient tracking
+- All functions may be found in taskgrasp_refine.py
+
+## Usage
+
+- All code should be run on the (new_pytorch_graspnet) environment. **Do not install geometric_utils via pip**
+- Refer to taskgrasp_refine.py for more information
